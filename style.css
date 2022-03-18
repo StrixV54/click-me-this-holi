@@ -3,10 +3,11 @@
      flex-flow: column;
      flex-direction: column;
      gap: 30px;
-     padding: 50px 150px;
+     margin: 50px 150px;
 }
 .list > button {
      width: 100%;
+     min-width: 300px;
      font-size: 20px;
      height: 50px;
      border-radius: 10px;
