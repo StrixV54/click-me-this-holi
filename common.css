@@ -21,8 +21,11 @@ div div{
      animation: visible 6s forwards;
 }
 @keyframes visible {
+     80%{
+          transform: scale(1.2);
+     }
      100%{
           opacity: 100%;
-          transform: scale(1.2);
+          transform: none;
      }
 }
