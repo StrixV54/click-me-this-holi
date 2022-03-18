@@ -1,0 +1,19 @@
+img{
+     width: 100%;
+     max-height: 80%;
+}
+div div{
+     font-size: 40px;
+     opacity: 0%;
+     margin: auto;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+     animation: visible 6s forwards;
+}
+@keyframes visible {
+     100%{
+          opacity: 100%;
+          transform: scale(1.2);
+     }
+}
